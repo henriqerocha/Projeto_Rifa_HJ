@@ -53,8 +53,65 @@ header{
     margin-top: 10px;
     /*background-image: url('../images/wallpaper.jpg');*/
     background: rgb(30,224,255);
-    background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,1) 58%, rgba(0,212,255,1) 100%);
+background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555264342064952) 58%, rgba(0,212,255,0.5359185910692401) 100%);
     background-position: center;
     background-size: cover;
-    height: 500px;
 }
+
+.conteudoWallpaper{
+    height: 600px;
+}
+
+.topWallpaper{
+    background-color: red;
+    display: flex;
+    height: 200px;
+}
+
+.botWallpaper{
+    display: flex;
+    flex: 1;
+    height: 350px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.option1,
+.option2,
+.option3{
+    display: flex;
+    flex: 1;
+}
+
+.option1{
+    background-color: #1190CB;
+}
+.option2{
+    background-color: #7DCCFF;
+}
+.option3{
+    background-color: #141414;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
