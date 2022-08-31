@@ -93,13 +93,13 @@ background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555
 
 .option1{
     display: flex;
-    background-color: #1190CB;
+    background-color: rgba(17, 144, 203, 0.7);
 }
 .option2{
     background-color: #7DCCFF;
 }
 .option3{
-    background-color: #F45CC7;
+    background-color: rgba(215,19,134,0.5);
 }
 
 .titleOption1,
@@ -119,7 +119,7 @@ font-family: 'Indie Flower', cursive;
 }
 
 .titleOption3{
-    color: #1F3291;
+    color: white;
 }
 
 
