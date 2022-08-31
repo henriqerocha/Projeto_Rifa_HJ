@@ -49,21 +49,24 @@ header{
     color: white;
 }
 
+.active{
+    background-color: #31AFB4;
+}
+
 #backImage{
     margin-top: 10px;
-    /*background-image: url('../images/wallpaper.jpg');*/
-    background: rgb(30,224,255);
-background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555264342064952) 58%, rgba(0,212,255,0.5359185910692401) 100%);
+    background-image: url('../images/fundo\ design.jpg');
+    /*background: rgb(30,224,255);
+background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555264342064952) 58%, rgba(0,212,255,0.5359185910692401) 100%);*/
     background-position: center;
     background-size: cover;
 }
 
 .conteudoWallpaper{
-    height: 600px;
+    height: 550px;
 }
 
 .topWallpaper{
-    background-color: red;
     display: flex;
     height: 200px;
 }
@@ -72,6 +75,7 @@ background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555
     display: flex;
     flex: 1;
     height: 350px;
+    opacity : 0.90;
 }
 
 .flex-column{
@@ -84,18 +88,39 @@ background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555
 .option3{
     display: flex;
     flex: 1;
+    flex-direction: column;
 }
 
 .option1{
+    display: flex;
     background-color: #1190CB;
 }
 .option2{
     background-color: #7DCCFF;
 }
 .option3{
-    background-color: #141414;
+    background-color: #F45CC7;
 }
 
+.titleOption1,
+.titleOption2,
+.titleOption3{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;  
+}
+
+.titleOption2{
+    color: #D71386;
+    font-size: 30px;
+}
+
+.titleOption3{
+    color: #1F3291;
+}
 
 
 
